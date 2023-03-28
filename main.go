@@ -61,7 +61,7 @@ func main() {
 
 			//Sending a POST request to localhost:10998
 			// Create a new POST request with the string as the body
-			req, err := http.NewRequest("POST", "http://localhost:10998/token", bytes.NewBuffer([]byte(tokenString)))
+			req, err := http.NewRequest("POST", "http://localhost:12388/token", bytes.NewBuffer([]byte(tokenString)))
 			if err != nil {
 				panic(err)
 			}
